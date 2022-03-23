@@ -1,0 +1,59 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+
+.alert{
+    width: max-content;
+    height: max-content;
+    padding: 1.25rem 2.75rem;
+    border-radius: 3px;
+}
+
+.alert-filled-primary{
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.75rem;
+}
+
+.alert-filled-warning{
+    background-color: var(--warning-color);
+    color: white;
+    font-size: 1.75rem;
+}
+
+.alert-filled-error{
+    background-color: var(--error-color);
+    color: white;
+    font-size: 1.75rem;
+}
+
+.alert-filled-success{
+    background-color: var(--success-color);
+    color: white;
+    font-size: 1.75rem;
+}
+
+
+/* alert outline */
+.alert-outline-primary{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.75rem;
+}
+
+.alert-outline-warning{
+    border: 2px solid var(--warning-color);
+    color: var(--warning-color);;
+    font-size: 1.75rem;
+}
+
+.alert-outline-error{
+    border: 2px solid var(--error-color);
+    color: var(--error-color);;
+    font-size: 1.75rem;
+}
+
+.alert-outline-success{
+    border: 2px solid var(--success-color);
+    color: var(--success-color);;
+    font-size: 1.75rem;
+}
