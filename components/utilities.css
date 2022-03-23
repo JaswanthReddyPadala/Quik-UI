@@ -4,6 +4,7 @@
     --spacing-2: 3.2rem;
     --spacing-3: 4.8rem;
 
+    --black: #181818;
     --dark-gray: #181818;
     --error-color: #F44336;
     --success-color: #4CAF50;
@@ -26,11 +27,11 @@ html{
 body {
     width: 100vw;
     overflow-x: hidden ;  
-    background-color: #fff;
+    background-color: white;
 }
 
 a{
-    color: #000000;
+    color: var(--black);
     text-decoration: none;
 }
 

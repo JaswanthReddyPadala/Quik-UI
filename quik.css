@@ -22,7 +22,7 @@ html, body {
 width: 100vw;
     overflow-x: hidden ;  
   height: 100%;  
-  background-color: #fff;
+  background-color: white;
  }
 
  body{
@@ -41,7 +41,7 @@ width: 100vw;
 
  /* Local Background Color */
  .l-bg-white{
-     background-color: #ffffff;
+     background-color: white;
  }
 
  .l-bg-black{
@@ -129,7 +129,7 @@ width: 100vw;
     font-family: 'Open Sans', sans-serif;
     top: 0;
     margin-top: 7.5% ;
-    background-color: #fff;
+    background-color: white;
     border-right: 1px solid lightgrey;
 
  }
@@ -191,18 +191,6 @@ width: 100vw;
 
 .docs-content::-webkit-scrollbar {
   width: 0px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
 }
 
 .code-snippet-container{

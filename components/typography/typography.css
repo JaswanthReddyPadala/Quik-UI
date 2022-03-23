@@ -47,7 +47,7 @@ body{
 
 .text-normal {
     text-decoration: none;
-    color: #181818;
+    color: var(--black);
 }
 
 .text-striked { 
