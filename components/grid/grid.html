@@ -8,6 +8,8 @@
     <title> Grid | Quik UI</title>
     <link rel="stylesheet" href="./grid.css">
     <script src="https://kit.fontawesome.com/d07b5a219c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../prism.css">
+
 
 </head>
 
@@ -33,7 +35,7 @@
                     <li class="docs-sidebar_list-item local-text-peach"><a href="../intro/intro.html">Introduction</a>
                     </li>
                     <li class="docs-sidebar_list-item local-text-peach"><a
-                            href="../typography/typography.html">Text Utilites</a></li>
+                            href="../typography/typography.html">Typography</a></li>
                 </ul>
             </div>
 
@@ -57,9 +59,155 @@
             <h1 class="text-36 mb-1">Basic Grid Layout</h1>
             <hr>
 
-            
+            <!-- Basic Rating -->
+            <div class="docs-content-sub-container">
+                <h1 class="text-24 mt-1">2 Column Grid Layout</h1>
+                <div class="flex flex-col align-items-baseline width-max m-1">
+
+                   <div class="grid grid-2-cols">
+
+                    <div class="card card-horizontal mr-2 mb-1">
+                        <div class="card-img-container">
+                            <img src="../../assets//images/ejs-book-cover.jpg" alt="">
+                        </div>
+
+                        <div class="card-content">
+                            <div class="card-content-top">
+
+                                <h1 class="card-title">
+                                    EJS Book
+                                </h1>
+                                <p class="card-description">
+                                    A good begineer friendly JS Book
+                                </p>
+                                <p class="card-price">Rs.382.5 <span class="card-offer-price">Rs.510</span></p>
+                                <p class="card-offer">25%</p>
+                            </div>
+                            <button class="card-btn"> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card card-horizontal mr-2 mb-1">
+                        <div class="card-img-container">
+                            <img src="../../assets//images/ejs-book-cover.jpg" alt="">
+                        </div>
+
+                        <div class="card-content">
+                            <div class="card-content-top">
+
+                                <h1 class="card-title">
+                                    EJS Book
+                                </h1>
+                                <p class="card-description">
+                                    A good begineer friendly JS Book
+                                </p>
+                                <p class="card-price">Rs.382.5 <span class="card-offer-price">Rs.510</span></p>
+                                <p class="card-offer">25%</p>
+                            </div>
+                            <button class="card-btn"> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>
+                    </div>
+
+                   </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="docs-content-sub-container">
+                <h1 class="text-24 mt-1">3 Column Grid Layout</h1>
+                <div class="flex flex-col align-items-baseline width-max m-1">
+
+                   <div class="grid grid-3-cols">
+
+                    <div class="card card-vertical mr-2 mb-1">
+                        <div class="card-img-container">
+                            <img src="../../assets//images/ejs-book-cover.jpg" alt="">
+                        </div>
+
+                        <div class="card-content">
+                            <h1 class="card-title">
+                                EJS Book
+                            </h1>
+                            <p class="card-description">
+                                A good begineer friendly JS Book
+                            </p>
+                            <p class="card-price">Rs.382.5 <span class="card-offer-price">Rs.510</span></p>
+                            <p class="card-offer">25%</p>
+                        </div>
+                        <button class="card-btn"> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                    </div>
+
+
+                    <div class="card card-vertical mr-2 mb-1">
+
+                        <div class="card-badge card-trending">
+                            <p>Trending</p>
+                        </div>
+
+                        <div class="card-img-container">
+                            <img src="../../assets//images/ejs-book-cover.jpg" alt="">
+                        </div>
+
+                        <div class="card-content">
+                            <h1 class="card-title">
+                                EJS Book
+                            </h1>
+                            <p class="card-description">
+                                A good begineer friendly JS Book
+                            </p>
+                            <p class="card-price">Rs.382.5 <span class="card-offer-price">Rs.510</span></p>
+                            <p class="card-offer">25%</p>
+                        </div>
+                        <button class="card-btn"> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                    </div>
+
+                    <div class="card card-vertical mr-2 mb-1">
+                        <div class="card-overlay"></div>
+                        <div class="card-badge card-out-of-stock">
+                            <p>Out of Stock</p>
+                        </div>
+
+                        <div class="card-img-container">
+                            <img src="../../assets//images/ejs-book-cover.jpg" alt="">
+                        </div>
+
+                        <div class="card-content">
+                            <h1 class="card-title">
+                                EJS Book
+                            </h1>
+                            <p class="card-description">
+                                A good begineer friendly JS Book
+                            </p>
+                            <p class="card-price">Rs.382.5 <span class="card-offer-price">Rs.510</span></p>
+                            <p class="card-offer">25%</p>
+                        </div>
+                        <button class="card-btn"> <i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                    </div>
+
+                   </div>
+
+                </div>
+
+                <div class="code-snippet-container">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid grid-2-cols">
+                            <!-- Grid Child Items Goes here -->
+                        </div>
+
+                        <div class="grid grid-3-cols">
+                            <!-- Grid Child Items Goes here -->
+                        </div>
+                    </script>
+                </div>
+            </div>
+
+
 
         </div>
+        <script src="../../prism.js"></script>
 
     </main>
 </body>
