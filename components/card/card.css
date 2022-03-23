@@ -35,7 +35,7 @@
     background-color: var(--secondary);
     border: none;
     border-radius: 3px;
-    color: white;
+    color: var(--white);
 }
 
 
@@ -81,7 +81,6 @@
 }
 
 .card-offer-price{
-    /* font-size: 1.1rem; */
     text-decoration: line-through;
     color: var(--secondary);
     opacity: 75%;
@@ -100,7 +99,7 @@
     width: 100%;
     border: none;
     background-color: var(--secondary);
-    color: white;
+    color: var(--white);
     border-radius: 3px;
 }
 
@@ -116,7 +115,7 @@
     height: max-content;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
-    color: white;
+    color: var(--white);
     z-index: 10;
     box-shadow: 3px 3px 5px rgba(90, 90, 90, 0.6);
 }
