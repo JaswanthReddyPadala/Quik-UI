@@ -1,0 +1,162 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+
+
+.card {
+	border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    border: 2px solid var(--secondary);
+    position: relative;
+}
+
+
+/* text only card */
+.card-text-only{
+    max-width: 30rem;
+    height: max-content;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.card-text-only p{
+    font-size: 1.1rem;
+}
+
+.card-btn{
+    width: max-content;
+    height: max-content;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.card-text-only .card-btn{
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/* vertical ecommerce card */
+.card-vertical{
+    width: 22.5rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.card-img-container{
+    width: 100%;
+    height: 20rem;
+    background-color: #ededed;
+}
+
+.card-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-vertical .card-content{
+    margin-top: var(--spacing-1);
+}
+
+.card-content .card-title{
+    color: var(--dark-gray);
+}
+
+.card-content .card-description{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.card-content .card-price{
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-offer-price{
+    /* font-size: 1.1rem; */
+    text-decoration: line-through;
+    color: var(--secondary);
+    opacity: 75%;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+.card-offer{
+    color: var(--secondary);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.card-btn{
+    width: 100%;
+    border: none;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 3px;
+}
+
+.card-vertical .card-btn i{
+    margin-right: 0.75rem;
+}
+
+.card-badge{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    color: white;
+    z-index: 10;
+    box-shadow: 3px 3px 5px rgba(90, 90, 90, 0.6);
+}
+
+.card-trending{
+    background-color: var(--success-color);
+}
+
+.card-out-of-stock{
+    background-color: var(--error-color);
+}
+
+.card-overlay{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.card-horizontal{
+    width: 40rem;
+    flex-direction: row;
+}
+
+.card-horizontal .card-img-container {
+    width: 40%;
+}
+
+
+.card-horizontal .card-content{
+    margin: 0;
+    margin-left: var(--spacing-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-horizontal .card-content .card-btn{
+    justify-self:flex-end;
+}
