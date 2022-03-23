@@ -1,0 +1,116 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+
+.badge{
+    border-radius: 1000px;
+    position: relative;
+}
+
+.badge img{
+    width: 100%;
+    height:100%;
+    border-radius: 1000px;
+    
+}
+
+.badge-sm{
+    width: 3.2em;
+    height: 3.2em;
+}
+
+.badge-md{
+    width: 4.8em;
+    height: 4.8em;
+}
+
+.badge-lg{
+    width: 6.4em;
+    height: 6.44em;
+}
+
+.badge-xl{
+    width: 8em;
+    height: 8em;
+    background-color: pink;
+}
+
+.badge-status{
+    content: '';
+    position: absolute;
+    border-radius: 1000px;
+    background-color: gray;
+    border-color: white;
+    border-style: solid;
+}
+
+.badge-xl .badge-status{
+    width: 1.75em;
+    height: 1.75em;
+    right: 0.2em;
+    bottom: 0.2em;
+    border-width: 2px solid white;
+}
+
+.badge-lg .badge-status{
+    width: 1.5em;
+    height: 1.5em;
+    right: 0.25em;
+    bottom: 0.25em;
+    border-width: 2px;
+}
+
+.badge-md .badge-status{
+    width: 1.25em;
+    height: 1.25em;
+    right: 0.15em;
+    bottom: 0.15em;
+    border-width: 1.5px;
+}
+
+.badge-sm .badge-status{
+    width: 1em;
+    height: 1em;
+    right: 0.10em;
+    bottom: 0.10em;
+    border-width: 1.5px;
+}
+
+.online{
+    background: var(--success-color);
+}
+
+.offline{
+    background-color: var(--error-color);
+}
+
+.dnd{
+    background-color: var(--gray-color);
+}
+
+.badge-icon-container{
+    width: 5rem;
+    height: 5rem;
+    background-color: #e4e4e4;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.badge-icon{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    color: #f9f9f9;
+    position: absolute;
+    top:-3px;
+    right: -3px;
+    border-radius: 50%;
+
+}
