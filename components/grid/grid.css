@@ -1,0 +1,17 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+@import url(../card/card.css);
+
+.grid{
+    display: grid;
+    grid-gap: 1rem;
+
+}
+
+.grid-2-cols{
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-cols{
+    grid-template-columns: 1fr 1fr 1fr;
+}
