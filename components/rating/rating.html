@@ -1,116 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating | Quik UI</title>
+    <link rel="stylesheet" href="./rating.css" />
+    <script
+      src="https://kit.fontawesome.com/d07b5a219c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../../prism.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Rating | Quik UI</title>
-    <link rel="stylesheet" href="./rating.css">
-    <script src="https://kit.fontawesome.com/d07b5a219c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../prism.css">
-
-
-</head>
-
-<body class="docs-body">
+  <body class="docs-body">
     <header class="docs-header flex justify-content-between align-items-center">
-        <div class="quik-logo">
-            <h1 class="text-36 local-text-peach"><a href="../../index.html">Quik UI</a></h1>
-        </div>
+      <div class="quik-logo">
+        <h1 class="text-36 local-text-peach">
+          <a href="../../index.html">Quik UI</a>
+        </h1>
+      </div>
 
-        <div class="quik-links-group">
-            <a href="https://github.com/JaswanthReddyPadala/Quik-UI" class="text-normal text-24"><i class="fa-brands fa-github"></i></a>
-            <a href="https://linkedin.com/JaswanthReddyPadala" class="text-normal text-24"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/jaswanthreddyp2" class="text-normal text-24"><i class="fa-brands fa-twitter"></i></a>
-        </div>
+      <div class="quik-links-group">
+        <a
+          href="https://github.com/JaswanthReddyPadala/Quik-UI"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/JaswanthReddyPadala"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://twitter.com/jaswanthreddyp2"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
     </header>
 
     <main class="docs-main flex">
-
-        <aside class="docs-sidebar">
-            <div class="docs-sidebar_group">
-                <h2 class="text-general docs-sidebar_heading text-18">Getting Started</h2>
-                <ul class="docs-sidebar_list text-14">
-                    <li class="docs-sidebar_list-item local-text-peach"><a href="../intro/intro.html">Introduction</a>
-                    </li>
-                    <li class="docs-sidebar_list-item local-text-peach"><a
-                            href="../typography/typography.html">Typography</a></li>
-                </ul>
-            </div>
-
-            <div class="docs-sidebar_group">
-                <h2 class="text-general docs-sidebar_heading text-24">Components</h2>
-                <ul class="docs-sidebar_list text-16">
-                    <li class="docs-sidebar_list-item"><a href="../alert/alert.html">Alert</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../avatar/avatar.html">Avatar</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../badge/badge.html">Badge</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../button/button.html">Button</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../card/card.html">Card</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../image/image.html">Image</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../input/input.html">Input</a></li>
-                    <li class="docs-sidebar_list-item-active"><a href="./rating.html">Rating</a></li>
-                    <li class="docs-sidebar_list-item"><a href="../grid/grid.html">Grid</a></li>
-                </ul>
-            </div>
-        </aside>
-
-        <div class="docs-content text-general">
-            <h1 class="text-36 mb-1">Rating</h1>
-            <hr>
-
-            <!-- Basic Rating -->
-            <div class="docs-content-sub-container">
-                <h1 class="text-24 mt-1">Basic Rating</h1>
-                <div class="flex flex-col align-items-baseline width-max m-1">
-
-                    <div class="star-rating-container">
-                        <label>
-                            <i class="fas fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <i class="fas fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <i class="fas fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <i class="far fa-star rating-star-icon"></i>
-                        </label>
-                        <label>
-                            <i class="far fa-star rating-star-icon"></i>
-                        </label>
-                    </div>
-
-                </div>
-
-                <div class="code-snippet-container">
-                    <script type="text/plain" class="line-numbers language-markup">
-                        <div class="star-rating-container">
-                            <label>
-                                <i class="fas fa-star rating-star-icon"></i>
-                            </label>
-                            <label>
-                                <i class="fas fa-star rating-star-icon"></i>
-                            </label>
-                            <label>
-                                <i class="fas fa-star rating-star-icon"></i>
-                            </label>
-                            <label>
-                                <i class="far fa-star rating-star-icon"></i>
-                            </label>
-                            <label>
-                                <i class="far fa-star rating-star-icon"></i>
-                            </label>
-                        </div>
-                    </script>
-                </div>
-            </div>
-
+      <aside class="docs-sidebar">
+        <div class="docs-sidebar_group">
+          <h2 class="text-general docs-sidebar_heading text-18">
+            Getting Started
+          </h2>
+          <ul class="docs-sidebar_list text-14">
+            <li class="docs-sidebar_list-item local-text-peach">
+              <a href="../intro/intro.html">Introduction</a>
+            </li>
+            <li class="docs-sidebar_list-item local-text-peach">
+              <a href="../typography/typography.html">Typography</a>
+            </li>
+          </ul>
         </div>
 
-        <script src="../../prism.js"></script>
-    </main>
-</body>
+        <div class="docs-sidebar_group">
+          <h2 class="text-general docs-sidebar_heading text-24">Components</h2>
+          <ul class="docs-sidebar_list text-16">
+            <li class="docs-sidebar_list-item">
+              <a href="../alert/alert.html">Alert</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../badge/badge.html">Badge</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../button/button.html">Button</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../card/card.html">Card</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../image/image.html">Image</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../input/input.html">Input</a>
+            </li>
+            <li class="docs-sidebar_list-item-active">
+              <a href="./rating.html">Rating</a>
+            </li>
+            <li class="docs-sidebar_list-item">
+              <a href="../grid/grid.html">Grid</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
+      <div class="docs-content text-general">
+        <h1 class="text-36 mb-1">Rating</h1>
+        <hr />
+
+        <!-- Basic Rating -->
+        <div class="docs-content-sub-container">
+          <h1 class="text-24 mt-1">Basic Rating</h1>
+          <div class="flex flex-col align-items-baseline width-max m-1">
+            <div class="star-rating-container">
+              <label>
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <i class="fas fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <i class="far fa-star rating-star-icon"></i>
+              </label>
+              <label>
+                <i class="far fa-star rating-star-icon"></i>
+              </label>
+            </div>
+          </div>
+
+          <div class="code-snippet-container">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="star-rating-container">
+                  <label>
+                      <i class="fas fa-star rating-star-icon"></i>
+                  </label>
+                  <label>
+                      <i class="fas fa-star rating-star-icon"></i>
+                  </label>
+                  <label>
+                      <i class="fas fa-star rating-star-icon"></i>
+                  </label>
+                  <label>
+                      <i class="far fa-star rating-star-icon"></i>
+                  </label>
+                  <label>
+                      <i class="far fa-star rating-star-icon"></i>
+                  </label>
+              </div>
+            </script>
+          </div>
+        </div>
+      </div>
+
+      <script src="../../prism.js"></script>
+    </main>
+  </body>
 </html>

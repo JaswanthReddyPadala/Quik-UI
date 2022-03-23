@@ -204,3 +204,7 @@ width: 100vw;
     object-fit: contain;
     border-radius: 6px;
 }
+
+.language-markup{
+    padding: 1.5rem;
+}
