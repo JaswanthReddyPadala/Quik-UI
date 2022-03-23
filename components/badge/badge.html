@@ -8,6 +8,8 @@
     <title> Badge | Quik UI</title>
     <link rel="stylesheet" href="./badge.css">
     <script src="https://kit.fontawesome.com/d07b5a219c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../prism.css">
+
 
 </head>
 
@@ -33,7 +35,7 @@
                     <li class="docs-sidebar_list-item local-text-peach"><a href="../intro/intro.html">Introduction</a>
                     </li>
                     <li class="docs-sidebar_list-item local-text-peach"><a
-                            href="../typography/typography.html">Text Utilites</a></li>
+                            href="../typography/typography.html">Typography</a></li>
                 </ul>
             </div>
 
@@ -57,8 +59,102 @@
         <div class="docs-content text-general">
             <h1 class="text-36 mb-1">Badge</h1>
             <hr>
-           
+            <!-- Badge with Status-->
+            <div class="docs-content-sub-container">
+                <h1 class="text-24 mt-1">Image Badges</h1>
+
+                <div class="flex align-items-baseline width-max m-1">
+
+                    
+
+                    <div class="badge badge-xl">
+                        <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                        <span class="badge-status online"></span>
+                    </div>
+
+                    <div class="badge badge-lg ml-2">
+                        <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                        <span class="badge-status offline"></span>
+                    </div>
+
+                    <div class="badge badge-md ml-2">
+                        <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                        <span class="badge-status dnd"></span>
+                    </div>
+
+
+                </div>
+
+                <p class="text-16">The badge component has 4 sizes, <span class="local-text-peach">badge-xl</span>
+                    (5rem),
+                    <span class="local-text-peach">badge-lg</span> (4rem), <span
+                        class="local-text-peach">badge-md</span>
+                    (3rem), <span class="local-text-peach">badge-sm</span> (2rem), and <span
+                        class="local-text-peach">badge-sm</span> (1rem).
+                </p>
+                <p class="text-16">This badge component also have 3 different status,
+                    <span class="local-text-peach">online</span>,
+                    <span class="local-text-peach">offline</span>,
+                    <span class="local-text-peach">dnd</span>.
+                </p>
+
+                <div class="code-snippet-container">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="badge badge-xl">
+                            <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                            <span class="badge-status online"></span>
+                        </div>
+    
+                        <div class="badge badge-lg ml-2">
+                            <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                            <span class="badge-status offline"></span>
+                        </div>
+    
+                        <div class="badge badge-md ml-2">
+                            <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
+                            <span class="badge-status dnd"></span>
+                        </div>
+                    </script>
+                </div>
+            </div>
+
+
+            <!-- badge with icons -->
+            <div class="docs-content-sub-container">
+                <h1 class="text-24">Icon Badges</h1>
+
+                <div class="flex align-items-baseline width-max m-1">
+
+                    <div class="badge badge-icon-container">
+                        <i class="fa-solid fa-check"></i>
+                        <span class="badge-icon">6</span>
+                    </div>
+
+                    <div class="badge badge-icon-container ml-2">
+                        <i class="fa-solid fa-bell"></i>
+                        <span class="badge-icon">3</span>
+                    </div>
+
+                </div>
+
+                
+
+                <div class="code-snippet-container">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="badge badge-icon-container">
+                            <i class="fa-solid fa-check"></i>
+                            <span class="badge-icon">6</span>
+                        </div>
+    
+                        <div class="badge badge-icon-container ml-2">
+                            <i class="fa-solid fa-bell"></i>
+                            <span class="badge-icon">3</span>
+                        </div>
+                    </script>
+                </div>
+            </div>
         </div>
+        <script src="../../prism.js"></script>
 
     </main>
 </body>
