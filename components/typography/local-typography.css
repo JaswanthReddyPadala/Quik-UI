@@ -1,0 +1,30 @@
+
+.font-sizes-container{
+    display:flex;
+    align-items: baseline;
+    overflow-x: auto;
+}
+
+.font-sizes-container p {
+    height: max-content;
+    width: max-content;
+    margin-left: 1rem;
+
+}
+
+.text-alingment-container{
+    width:30rem;
+    padding: 1rem;
+    border: 1px solid var(--dark-gray);
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+
+.text-alingment-container p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.text-decoration-container p{
+    margin-right: 1.75rem;
+}
