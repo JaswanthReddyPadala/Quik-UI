@@ -1,0 +1,27 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+
+
+.image-container{
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border: 1px solid var(--gray-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.image-responsive{
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+
+}
+
+.image-round{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover; 
+}

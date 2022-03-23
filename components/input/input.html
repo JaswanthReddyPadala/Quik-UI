@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Input | Quik UI</title>
     <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="./local-input.css">
+    <link rel="stylesheet" href="../../prism.css">
     <script src="https://kit.fontawesome.com/d07b5a219c.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -33,7 +36,7 @@
                     <li class="docs-sidebar_list-item local-text-peach"><a href="../intro/intro.html">Introduction</a>
                     </li>
                     <li class="docs-sidebar_list-item local-text-peach"><a
-                            href="../typography/typography.html">Text Utilites</a></li>
+                            href="../typography/typography.html">Typography</a></li>
                 </ul>
             </div>
 
@@ -56,10 +59,157 @@
 
         <div class="docs-content text-general">
             <h1 class="text-36 mb-1">Inputs</h1>
+            <p class="text-16 mt-2 mb-1">Input are the way to get data from user. There are mutlipe types of input</p>
             <hr>
+            <!-- Primary Inputs-->
+            <div class="docs-content-sub-container">
+                <h1 class="text-24 mt-1">Primary Inputs</h1>
+                <div class="flex flex-col align-items-baseline width-max m-1">
+                    <h3 class="quik-input-h3">Text Area</h3>
+                    <textarea class="text-area" cols="40" rows="10" class="text-area"
+                        placeholder="Write a comment..."></textarea>
+
+                    <h3 class="quik-input-h3">Text Input</h3>
+                    <input type="text" class="input" placeholder="Enter any text" />
+
+                    <h3 class="quik-input-h3">Number Input</h3>
+                    <input type="number" class="input" placeholder="Enter number" />
+
+                    <h3 class="quik-input-h3">Password Input</h3>
+                    <input type="password" class="input" placeholder="Enter your password" />
+
+                    <h3 class="quik-input-h3">Date Input</h3>
+                    <input type="date" class="input">
+
+                    <h3 class="quik-input-h3">Radio Input</h3>
+                    <div class="checkbox-input-container flex">
+
+                        <label for="radio-1" class="radio-input">
+                            <input
+                            type="radio"
+                            class="input-radio element-round"
+                            id="radio-1"
+                            name="radio-item"
+                            />
+                            
+                            <span>Male</span>
+                        </label>
+                        <label for="radio-2" class="radio-input">
+                            <input
+                            type="radio"
+                            class="input-radio element-round"
+                            id="radio-2"
+                            name="radio-item"
+                            />
+                            <span>Female</span>
+                        </label>
+                    </div>
+
+                    <h3 class="quik-input-h3"> CheckBox Input</h3>
+                    <div class="checkbox-input-container flex">
+
+                        <label for="checkbox-input" class="checkbox-input">
+                            <input
+                                type="checkbox"
+                                name="checkbox"
+                                id="checkbox-input"
+                                class="checkbox-input"
+                            />
+                            <span>Checkbox</span>
+                        </label>
+                    </div>
+
+                </div>
+
+
+
+                <div class="code-snippet-container">
+                    <script type="text/plain" class="line-numbers language-markup">
+                    <textarea class="text-area" cols="40" rows="10" class="text-area" placeholder="Write a comment..."></textarea>
+
+                    <input type="text" class="input" placeholder="Enter any text" />
+
+                    <input type="number" class="input" placeholder="Enter number" />
+
+                    <input type="password" class="input" placeholder="Enter your password" />
+
+                    <input type="date" class="input">
+
+                    <div class="checkbox-input-container flex">
+                        <label for="radio-1" class="radio-input">
+                            <input
+                            type="radio"
+                            class="input-radio element-round"
+                            id="radio-1"
+                            name="radio-item"
+                            />
+                            
+                            <span>Male</span>
+                        </label>
+                        <label for="radio-2" class="radio-input">
+                            <input
+                            type="radio"
+                            class="input-radio element-round"
+                            id="radio-2"
+                            name="radio-item"
+                            />
+                            <span>Female</span>
+                        </label>
+                    </div>
+
+                    <div class="checkbox-input-container flex">
+                        <label for="checkbox-input" class="checkbox-input">
+                            <input
+                                type="checkbox"
+                                name="checkbox"
+                                id="checkbox-input"
+                                class="checkbox-input"
+                            />
+                            <span>Checkbox</span>
+                        </label>
+                    </div>
+                    </script>                </div>
+            </div>
+
+
+            <div class="docs-content-sub-container">
+                <h1 class="text-24">Input Validation</h1>
+                <div class="flex flex-col align-items-baseline width-max m-1">
+                    
+                    <h3 class="quik-input-h3">Normal Input</h3>
+                    <input class="input" type="text" placeholder="Enter your name">
+
+                    <h3 class="quik-input-h3">Disabled Input</h3>    
+                    <input class="input input-disabled" type="text" placeholder="You cannot enter anything here.." disabled>        
+                    
+                    <h3 class="quik-input-h3">Input Validation Error</h3>
+                    <input class="input input-error" type="text" placeholder="Wrong password..">
+
+                    <h3 class="quik-input-h3">Input Validation Success</h3>
+                    <input class="input input-success" type="password" placeholder="" value="something">
+                      
+                </div>
+
+
+
+                <div class="code-snippet-container">
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <input class="input" type="text" placeholder="Enter your name">
+
+                        <input class="input input-disabled" type="text" placeholder="You cannot enter anything here.." disabled>      
+                        
+                        <input class="input input-error" type="text" placeholder="Wrong password..">
+
+                        <input class="input input-success" type="password" placeholder="" value="something">
+                    </script>
+                </div>
+            </div>
+
 
 
         </div>
+
+        <script src="../../prism.js"></script>
 
     </main>
 </body>
