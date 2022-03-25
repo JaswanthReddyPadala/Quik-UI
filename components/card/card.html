@@ -40,7 +40,7 @@
       </div>
     </header>
 
-    <main class="docs-main flex">
+    <main class="q-main docs-main flex">
       <aside class="docs-sidebar">
         <div class="docs-sidebar_group">
           <h2 class="text-general docs-sidebar_heading text-18">
@@ -97,8 +97,18 @@
         <div class="docs-content-sub-container">
           <h1 class="text-24 mt-1">Simple Text Card</h1>
 
-          <div class="flex align-items-baseline width-max m-1">
-            <div class="card card-text-only">
+          <div class="flex flex-wrap align-items-baseline width-max m-1">
+            <div class="card card-text-only mr-1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio inventore placeat molestias debitis, magnam corporis
+                voluptate nostrum. Qui mollitia saepe ducimus cumque modi iure
+                repellendus nam sint, incidunt, cum autem?
+              </p>
+              <button class="card-btn">Read more</button>
+            </div>
+
+            <div class="card card-text-only card-shadow">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Distinctio inventore placeat molestias debitis, magnam corporis
@@ -109,8 +119,11 @@
             </div>
           </div>
 
+          
+
           <div class="code-snippet-container">
             <script type="text/plain" class="line-numbers language-markup">
+              <!-- Text Only Card -->
               <div class="card card-text-only">
                   <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -119,7 +132,18 @@
                     repellendus nam sint, incidunt, cum autem?
                   </p>
                   <button class="card-btn">Read more</button>
-                </div>
+              </div>
+
+              <!-- Text Only Card with Shadow -->
+              <div class="card card-text-only card-shadow">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Distinctio inventore placeat molestias debitis, magnam corporis
+                  voluptate nostrum. Qui mollitia saepe ducimus cumque modi iure
+                  repellendus nam sint, incidunt, cum autem?
+                </p>
+                <button class="card-btn">Read more</button>
+              </div>
             </script>
           </div>
         </div>
@@ -129,7 +153,10 @@
           <h1 class="text-24">Vertical Card (Ecommerce)</h1>
 
           <div class="flex align-items-baseline width-max m-1">
-            <div class="card card-vertical mr-2 mb-1">
+            <div class="card card-vertical p-relative mr-2 mb-1">
+              <div class="wishlist-icon p-absolute flex justify-content-center align-items-center">
+                <i class="fa-regular fa-heart"></i>
+              </div>
               <div class="card-img-container">
                 <img
                   src="../../assets//images/ejs-book-cover.jpg"
@@ -183,6 +210,9 @@
             <div class="card card-vertical mr-2 mb-1">
               <div class="card-badge card-trending">
                 <p>Trending</p>
+              </div>
+              <div class="wishlist-icon p-absolute flex justify-content-center align-items-center">
+                <i class="fa-solid fa-heart"></i>
               </div>
 
               <div class="card-img-container">
@@ -244,6 +274,9 @@
               <div class="card-badge card-out-of-stock">
                 <p>Out of Stock</p>
               </div>
+              <div class="wishlist-icon p-absolute flex justify-content-center align-items-center">
+                <i class="fa-regular fa-heart"></i>
+              </div>
 
               <div class="card-img-container">
                 <img
@@ -260,6 +293,7 @@
                 </p>
                 <p class="card-offer">25%</p>
               </div>
+              
               <button class="card-btn">
                 <i class="fa-solid fa-cart-shopping"></i> Add to cart
               </button>
@@ -318,6 +352,7 @@
                   </p>
                   <p class="card-offer">25%</p>
                 </div>
+                <button class="card-btn">Remove from cart</button>
                 <button class="card-btn">
                   <i class="fa-solid fa-cart-shopping"></i> Add to cart
                 </button>

@@ -70,19 +70,19 @@ width: 100vw;
     margin-left: 2rem ;
 }
 
- main{
+ .q-main{
      padding: 1% 3%;
      width: 100vw;
      min-height: 100vh;
      position: relative;
  }
 
- main .main-page_content{
-     width: 60%;
+ .q-main .main-page_content{
+     width: 55%;
  }
 
- main .main-page_image{
-     width: 30%;
+ .q-main .main-page_image{
+     width: 35%;
  }
 
  .main-page_image img{

@@ -19,6 +19,10 @@
     flex-direction: column;
 }
 
+.card-shadow{
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
+}
+
 .card-text-only p{
     font-size: 1.1rem;
 }
@@ -47,6 +51,17 @@
     flex-direction: column;
     padding: 1rem;
 
+}
+
+.wishlist-icon{
+    top: -1px;
+    right: -1px;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    color: var(--white);
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
 }
 
 .card-img-container{
