@@ -32,8 +32,8 @@ body {
 }
 
 a{
-    color: var(--black);
     text-decoration: none;
+    color: inherit;
 }
 
 a, button{
