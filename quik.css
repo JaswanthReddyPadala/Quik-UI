@@ -113,6 +113,13 @@ width: 100vw;
     cursor: pointer;
  }
 
+ .q-footer{
+     border-top: 2px solid lightgray;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+ }
+
  .docs-main{
     padding: 1% 3%;
     width: 100%;
@@ -123,12 +130,9 @@ width: 100vw;
  .docs-sidebar{
     font-family: 'General Sans';
     letter-spacing: 1px;
-    width: 15%;
+    width: 25%;
     height: 100%;
-    position: fixed;
     font-family: 'Open Sans', sans-serif;
-    top: 0;
-    margin-top: 7.5% ;
     background-color: var(--white);
     border-right: 1px solid lightgrey;
 
@@ -183,7 +187,6 @@ width: 100vw;
 .docs-content{
     padding-left: 2em;
     width: 100%;
-    padding-left: 20%;
 }
 .docs-content-sub-container {
     margin-bottom: 5rem;
