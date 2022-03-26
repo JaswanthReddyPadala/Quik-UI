@@ -86,6 +86,9 @@
             <li class="docs-sidebar_list-item">
               <a href="../grid/grid.html">Grid</a>
             </li>
+<li class="docs-sidebar_list-item">
+              <a href="../list/list.html">Lists</a>
+            </li>
           </ul>
         </div>
       </aside>
@@ -97,7 +100,23 @@
         <div class="docs-content-sub-container">
           <h1 class="text-24 mt-1">Image Badges</h1>
 
-          <div class="flex align-items-baseline width-max m-1">
+          <p class="text-16">
+            The badge component has 4 sizes,
+            <span class="local-text-peach">badge-xl</span>
+            (5rem),
+            <span class="local-text-peach">badge-lg</span> (4rem),
+            <span class="local-text-peach">badge-md</span> (3rem),
+            <span class="local-text-peach">badge-sm</span> (2rem), and
+            <span class="local-text-peach">badge-sm</span> (1rem).
+          </p>
+          <p class="text-16">
+            This badge component also have 3 different status,
+            <span class="local-text-peach">online</span>,
+            <span class="local-text-peach">offline</span>,
+            <span class="local-text-peach">dnd</span>.
+          </p>
+
+          <div class="flex docs-example-container align-items-baseline width-max mb-1 mt-1">
             <div class="badge badge-xl">
               <img
                 src="../../assets/images/potrait.PNG"
@@ -123,21 +142,6 @@
             </div>
           </div>
 
-          <p class="text-16">
-            The badge component has 4 sizes,
-            <span class="local-text-peach">badge-xl</span>
-            (5rem),
-            <span class="local-text-peach">badge-lg</span> (4rem),
-            <span class="local-text-peach">badge-md</span> (3rem),
-            <span class="local-text-peach">badge-sm</span> (2rem), and
-            <span class="local-text-peach">badge-sm</span> (1rem).
-          </p>
-          <p class="text-16">
-            This badge component also have 3 different status,
-            <span class="local-text-peach">online</span>,
-            <span class="local-text-peach">offline</span>,
-            <span class="local-text-peach">dnd</span>.
-          </p>
 
           <div class="code-snippet-container">
             <script type="text/plain" class="line-numbers language-markup">
@@ -146,12 +150,12 @@
                   <span class="badge-status online"></span>
               </div>
 
-              <div class="badge badge-lg ml-2">
+              <div class="badge badge-lg">
                   <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
                   <span class="badge-status offline"></span>
               </div>
 
-              <div class="badge badge-md ml-2">
+              <div class="badge badge-md">
                   <img src="../../assets/images/potrait.PNG" alt="potrait-picture" />
                   <span class="badge-status dnd"></span>
               </div>
@@ -162,8 +166,8 @@
         <!-- badge with icons -->
         <div class="docs-content-sub-container">
           <h1 class="text-24">Icon Badges</h1>
-
-          <div class="flex align-items-baseline width-max m-1">
+          <p class="text-16">These are the badges with icons and span element at right top. These are mostly used as notification icons, message icons, etc.</p>
+          <div class="flex docs-example-container  align-items-baseline width-max mt-1 mb-1">
             <div class="badge badge-icon-container">
               <i class="fa-solid fa-check"></i>
               <span class="badge-icon">6</span>
@@ -182,7 +186,7 @@
                   <span class="badge-icon">6</span>
               </div>
 
-              <div class="badge badge-icon-container ml-2">
+              <div class="badge badge-icon-container">
                   <i class="fa-solid fa-bell"></i>
                   <span class="badge-icon">3</span>
               </div>

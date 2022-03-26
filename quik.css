@@ -193,18 +193,7 @@ width: 100vw;
   width: 0px;
 }
 
-.code-snippet-container{
-    width: 100%;
-    margin: 1.6em 0;
-}
-
-.code-snippet-container img{
-    width: 80%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 6px;
-}
-
-.language-markup{
-    padding: 1.5rem;
+.docs-example-container{
+    border: 1px solid var(--primary);
+    padding: 1rem;
 }
