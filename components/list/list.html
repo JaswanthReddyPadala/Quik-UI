@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image | Quik UI</title>
-    <link rel="stylesheet" href="./image.css" />
+    <title>Grid | Quik UI</title>
+    <link rel="stylesheet" href="./list.css" />
     <script
       src="https://kit.fontawesome.com/d07b5a219c.js"
       crossorigin="anonymous"
@@ -84,22 +84,121 @@
               <a href="../rating/rating.html">Rating</a>
             </li>
             <li class="docs-sidebar_list-item">
-              <a href="../input/input.html">Grid</a>
+              <a href="../grid/grid.html">Grid</a>
             </li>
             <li class="docs-sidebar_list-item-active">
-              <a href="../list/list.html ">Lists</a>
+              <a href="./list.html">Lists</a>
             </li>
-            
           </ul>
         </div>
       </aside>
 
       <div class="docs-content text-general">
-        <h1 class="text-36">Lists</h1>
+        <h1 class="text-36 mb-1">Lists</h1>
         <hr />
-        
+
+        <!-- Basic Lists -->
+        <div class="docs-content-sub-container">
+          <h1 class="text-24 mt-1">Default Lists</h1>
+          <p class="text-14 ml-1">These are defaults lists in HTML. </p>
+          <p class="text-14 ml-1">Here are list style types you can use with this, <span class="local-text-peach">.list-style-circle</span>, <span class="local-text-peach">.list-style-disc</span>, <span class="local-text-peach">.list-style-square</span> & <span class="local-text-peach">.list-style-none</span> </p>
+
+          <div class="flex docs-example-container flex-col align-items-baseline width-max mt-1 mb-1">
+                <ul class="list-ul list-style-square">
+                    <li class="list-li">Item 1</li>
+                    <li class="list-li">Item 2</li>
+                    <li class="list-li">Item 3</li>
+                    <li class="list-li">Item 4</li>
+                </ul>
+          </div>
+
+          <script type="text/plain" class="line-numbers language-markup">
+            <ul class="list-ul list-style-square">
+                <li class="list-li">Item 1</li>
+                <li class="list-li">Item 2</li>
+                <li class="list-li">Item 3</li>
+                <li class="list-li">Item 4</li>
+            </ul>
+        </script>
+
+        </div>
+
+        <div class="docs-content-sub-container">
+          <h1 class="text-24 mt-1">Notification List</h1>
+          <p class="text-14 ml-1">These kind of stacked lists are often used in notifications. </p>
+          <div class="flex docs-example-container flex-col align-items-baseline width-max mt-1 mb-1">
+            <div class="stacked-list-container">
+                <ul class="stacked-list list-style-none">
+                    <li class="list-li">
+                        <img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>26 sec ago</p>
+                    </li>
+                    <li class="list-li">
+                        <img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>5 min ago</p>
+                    </li>
+                    <li class="list-li"><img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>13 min ago</p>
+                    </li>
+                    <li class="list-li"><img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>15 min ago</p>
+                    </li>
+                </ul>
+            </div>
+
+          </div>
+
+          <div class="code-snippet-container">
+            <script type="text/plain" class="line-numbers language-markup">
+                <ul class="stacked-list list-style-none">
+                    <li class="list-li">
+                        <img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>26 sec ago</p>
+                    </li>
+                    <li class="list-li">
+                        <img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>5 min ago</p>
+                    </li>
+                    <li class="list-li"><img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>13 min ago</p>
+                    </li>
+                    <li class="list-li"><img src="../../assets/images/potrait.PNG" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero modi quos maxime possimus voluptates! Laborum fugit repellat dignissimos nihil</p>
+                        <p>15 min ago</p>
+                    </li>
+                </ul>
+            </script>
+          </div>
+        </div>
       </div>
-      <script src="../../prism.js"></script>
     </main>
+    <footer class="q-footer flex flex-col justify-content-center align-items-center">
+      <p class="text-16 text-center text-gray mt-1 mb-1">Made by JaswanthReddyPadala @ 2022 Quik UI</p>
+      <div class="quik-links-group text-14 pb-2">
+        <a
+          href="https://github.com/JaswanthReddyPadala/Quik-UI"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/JaswanthReddyPadala"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://twitter.com/jaswanthreddyp2"
+          class="text-normal text-24"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="../../prism.js"></script>
   </body>
 </html>

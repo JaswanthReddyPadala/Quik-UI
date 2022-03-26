@@ -1,0 +1,57 @@
+@import url(../utilities.css);
+@import url(../../quik.css);
+
+.list-ul{
+    margin-left: 2rem;
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.list-style-circle{
+    list-style-type: circle;
+}
+
+.list-style-disc{
+    list-style-type: disc;
+}
+
+.list-style-square{
+    list-style-type:square ;
+}
+
+.list-li{
+    font-size: 1.4rem;
+}
+
+.stacked-list-container{
+    width: 50%;
+}
+
+.stacked-list .list-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: var(--primary);
+    padding: 1.2rem 1rem;
+    color: var(--white);
+    border-bottom: 1px solid var(--gray-color);
+    font-size: 1.2rem;
+}
+
+.stacked-list .list-li img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.stacked-list .list-li p:first-child {
+    width: 55%;
+}
+
+.stacked-list .list-li p:last-child {
+    width: 35%;
+    color: var(--gray-color);
+}
